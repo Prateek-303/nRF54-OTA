@@ -4,7 +4,8 @@
 
 **Over-The-Air (OTA) Firmware Delivery Network for nRF7002 DK (nRF5340)**
 
-[![GitHub Repo](https://img.shields.io/badge/Served%20Via-raw.githubusercontent.com-blue?logo=github)](https://github.com/Prateek-303/nrf54-OTA)
+[![GitHub Repo](https://img.shields.io/badge/Server%20Repo-nRF53--OTA--server-blue?logo=github)](https://github.com/Prateek-303/nRF53-OTA-server)
+[![Firmware Repo](https://img.shields.io/badge/Firmware%20Repo-Firmware--OTA-informational?logo=github)](https://github.com/Prateek-303/Firmware-OTA)
 [![SDK](https://img.shields.io/badge/nRF%20Connect%20SDK-v3.2.4-orange)](https://developer.nordicsemi.com)
 [![Board](https://img.shields.io/badge/Board-nRF7002%20DK-green)](https://www.nordicsemi.com/Products/Development-hardware/nRF7002-DK)
 [![TLS](https://img.shields.io/badge/TLS-1.2%20%2F%20mbedTLS-red)](https://tls.mbed.org)
@@ -18,6 +19,9 @@
 ## 📌 Overview
 
 This repository is the **cloud backend** for the NexusOTA framework. It uses a **plain GitHub repository** served via `raw.githubusercontent.com` as a zero-cost, globally available, TLS-secured HTTPS server to deliver signed firmware binaries and JSON manifests to nRF5340-based edge devices in the field. No GitHub Pages, no extra configuration — just push to `main` and the files are instantly live.
+
+> **Firmware Repository:** The source code for the firmware lives at:
+> 👉 [github.com/Prateek-303/Firmware-OTA](https://github.com/Prateek-303/Firmware-OTA)
 
 The system supports:
 - Automatic version detection and upgrade
